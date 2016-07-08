@@ -97,8 +97,11 @@ Ya en el principal del proyecto cambiamos el branch de *master* a *develop* y po
 Vamos al apartado de branches y eliminamos *modify-readme*
 ![Branches](img/clicbranches.png)
 
-Ahora en nuestra terminal procedemos a eliminar esta rama y asi evitar demasiadas que no se utilizaran, escribirmos *"git branch -D modify-readme"*
+Ahora en nuestra terminal procedemos a eliminar esta rama y asi evitar demasiadas que no se utilizaran, cambiamos de rama a develop *"git checkout develop"* y escribirmos *"git branch -D modify-readme"*
 ![Elibranches](img/elibranches.png)
+
+Ya para terminar vamos a hacer pull a nuestro repositorio local y asi tener lo que ya esta en lo remoto tambien tenerlo nosotros en nuestra rama develop, escribimos *"git pull origin develop"* y listo ya tenemos los cambios en nuestro repositorio local.
+![pull](img/pull.png)
 
 #### ***LISTO!***    
 ###### Nuestro primer proyecto esta ya en nuestro repositorio remoto, mucho exito y que la fuerza te acompa;e!
