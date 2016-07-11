@@ -85,6 +85,7 @@ Este es el segundo párrafo.
 
 
 >>> Lista numerada (ordenada)
+>>>
 1. Este es el primer elemento   
 2. Este es el segundo elemento
 3. Este es el tercer elemento
