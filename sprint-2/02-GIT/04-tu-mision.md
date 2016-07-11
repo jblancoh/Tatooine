@@ -36,3 +36,20 @@ Estos son los ajustes que afectan al comportamiento de atom, mas no afecta la ed
 
 2. Project Home
 >Es el directorio en el que se encuentran los proyectos. Los paquetes creados usando el generador de paquetes serán almacenados aquí por defecto.
+
+Shortcuts Markdown
+
+| Shortcut       | Etiqueta       |
+| :------------- | :------------- |
+| b              |     `****`     |
+| img            | ``![]()``      |
+| i              | ``**``         |
+| l              |  ``[]()``      |
+| code           | ` ``` ``` `    |
+| t              | `- [ ] `       |
+| table          |
+~~~
+| Header One     | Header Two     |
+| :------------- | :------------- |
+| Item One       | Item Two       |`
+~~~
