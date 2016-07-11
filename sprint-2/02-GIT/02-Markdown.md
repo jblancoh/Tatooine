@@ -13,17 +13,140 @@
 
 **Cuales son las palabras claves mas utilizadas en Markdown?**    
 
-> - **Cabeceras** "\#"
-- **Enlaces con titulo** \[Con titulo](http://joedicastro.com "titulo")
-- **Enlaces sin titulo** \[Sin titulo](http://joedicastro.com)
-- **Formato negritas** "\*" o "_"
-- **Formato cursiva**  "\**" o "__"
-- **Formato negrita y cursiva**  "\***" o "\____"
-- **Cita** \> o >>
-- **Listas** \- + 1.
-- **Imagenes** \!\[Con titulo](pictures/avatar.png "titulo")
-- **Imagenes**  \!\[Sin titulo](pictures/avatar.png)
-- **Codigo** \~~~ o \```
-- **Lineas Horizontales** \--- ___ ***
-- **Nota a pie de pagina** \[^1]  
-- **Abreviaturas** \[HTML]: Hyper Text Markup Language
+> **Cabeceras**
+ >> ```# Esto es un H1, ## Esto es un H2, ### Esto es un H3```
+ >>> # Esto es un H1
+ ## Esto es un H2
+ ### Esto es un H3
+
+> **Párrafos**
+>>      Para crear párrafos se deja una línea en blanco.
+>>
+      Este es el primer párrafo.
+>>      
+      Este es el segundo párrafo.
+>>> Este es el primer párrafo.
+>>>
+Este es el segundo párrafo.
+
+
+> **Enlaces con titulo**
+>>``` [Con titulo](https://www.facebook.com/hipatiadevhouse "titulo")  ```
+>>> [Con titulo](https://www.facebook.com/hipatiadevhouse "titulo")
+
+> **Enlaces sin titulo**
+>>``` [Sin titulo](https://www.facebook.com/hipatiadevhouse ```
+>>>[Sin titulo](https://www.facebook.com/hipatiadevhouse)
+
+> **Formato negritas**
+>> ``` **Esto es negrita** | __Esto es negrita__ ```
+>>>**Esto es negrita**
+
+> **Formato cursiva**
+>>```  *Esto es cursiva* | _Esto es cursiva_  ```
+>>>*Esto es cursiva*
+
+>**Formato negrita y cursiva**
+>>```***Esto es negrita y cursiva*** | ___Esto es negrita y cursiva___```
+>>>***Esto es negrita y cursiva***
+
+>**Cita**
+>> ```> ```
+>>> > Esto es parte de un bloque de cita.   
+> Esto es parte del mismo bloque de cita.
+>>>
+
+>**Listas**
+>>    
+    Lista numerada (ordenada)
+    1. Este es el primer elemento
+    2. Este es el segundo elemento
+    3. Este es el tercer elemento
+>>      
+    Lista de puntos (desordenada)
+      * Un elemento de la lista
+      * Otro elemento de la lista
+      * El tercer elemento de la lista
+>>      
+    Se pueden emplear también + y - en vez de *
+      * Un elemento de la lista
+      + Otro elemento de la lista
+      - El tercer elemento de la lista
+>>      
+    Se pueden mezclar distintos tipos de listas
+    y anidar unas dentro de otras.
+      1. Esto es una lista ordenada
+      2. Segundo elemento de la lista ordenada
+          1. Esta es una lista ordenada anidada dentro de otra
+              * Lista desordenada anidada a tercer nivel
+              * Segundo elemento de esta lista
+          2. Este es el segundo elemento de la lista ordenada anidada
+
+
+
+>>> Lista numerada (ordenada)
+1. Este es el primer elemento   
+2. Este es el segundo elemento
+3. Este es el tercer elemento
+
+>>> Lista de puntos (desordenada)
+* Un elemento de la lista
+* Otro elemento de la lista
+* El tercer elemento de la lista
+
+>>> Se pueden emplear también + y - en vez de *
+* Un elemento de la lista
++ Otro elemento de la lista
+- El tercer elemento de la lista
+
+>>> Se pueden mezclar distintos tipos de listas y anidar unas dentro de otras.
+1. Esto es una lista ordenada
+2. Segundo elemento de la lista ordenada
+  1. Esta es una lista ordenada anidada dentro de otra
+    * Lista desordenada anidada a tercer nivel
+    * Segundo elemento de esta lista
+  2. Este es el segundo elemento de la lista ordenada anidada
+
+>**Imagenes**
+>>
+~~~
+![Con titulo](imgtuto/hipatia.png
+      "titulo")
+~~~
+
+   >>> ![Con titulo](imgtuto/hipatia.png "titulo")
+
+>**Imagenes**  
+>>
+~~~
+![Sin titulo](pictures/avatar.png)
+~~~
+>>> ![Sin titulo](imgtuto/hipatia.png)
+
+>**Codigo**
+>>  
+    Esto es un párrafo normal.  
+      Esto es un párrafo de código. <--cada línea de este bloque empiece por al menos 4 espacios o 1 tabulado.
+    ~~~
+    Esto es otro párrafo de código.
+    ~~~
+    ```Esto es un tercer párrafo de código.```
+
+>>>Esto es un párrafo normal.  
+>>>
+        Esto es un párrafo de código.
+~~~
+    Esto es otro párrafo de código.
+    ~~~
+    ```Esto es un tercer párrafo de código.```
+
+>**Lineas Horizontales**
+>>
+~~~
+---
+____
+***
+~~~
+>>> ---
+___
+***
