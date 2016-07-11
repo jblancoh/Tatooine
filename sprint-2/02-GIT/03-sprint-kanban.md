@@ -21,6 +21,8 @@ El Sprint es la unidad básica de trabajo para un equipo Scrum. Es una simple *i
 
 Un Sprint inicia con un equipo que se compromete a realizar el trabajo y finaliza con la demostración de un entregable. El tiempo mínimo para un Sprint es de una semana y el máximo es de 4 semanas.
 
+![Sprint](imgkanban/sprint.png)
+
 Dentro del desarrollo de un Sprint se llevan a cabo ciertos eventos, estos son:
 
 ## Scrum events
