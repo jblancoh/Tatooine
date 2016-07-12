@@ -1,0 +1,77 @@
+Hiciste un trabajo impresionante. Este es un resumen de lo aprendido:
+01. HTML se usa para darle estructura a los sitios web.
+02. Abrimos los archivos HTML usando un navegador, y el navegador reproduce el archivo (nos lo muestra).
+03. Los archivos HTML tienen un encabezado <head> y un cuerpo <body> (Igual que nosotros, que tenemos cabeza y cuerpo).
+04. En el encabezado tenemos las etiquetas de título <title> y las usamos para especificar el nombre de la página web.
+05. Cómo hacer encabezados y párrafos.
+
+Imagenes
+Enlaces
+
+
+Tablas
+Filas con información
+Una tabla es simplemente un grupo de información ordenado en filas y columnas.
+
+Usamos la etiqueta <tr> para crear una fila de la tabla.
+Pronto vamos a aprender cómo crear columnas, y todo comenzará a tomar forma.
+(En realidad, no se crean columnas en una etiqueta <table>: en vez de eso,
+le decimos a cada fila cuántas celdas debe tener, y eso determina la cantidad de columnas).
+
+Resumen
+¡Bien! Aprendimos bastante.
+
+¿Qué podés hacer ahora?
+
+Escribir un comentario HTML
+
+Crear una lista (ordenada y no ordenada)
+
+Resaltar el texto usando <em> y <strong>
+
+Cambiar el color, tamaño y alineación del texto usando el atributo style
+
+Crear tablas HTML
+
+
+Resumen
+¡Buen trabajo! Además de lo que ya aprendiste, ahora sabes:
+
+Dividir tu página web con las etiquetas <div> para darle estilo más fácilmente
+
+Seleccionar partes de texto y cambiar sus propiedades usando etiquetas <span>
+
+En el siguiente curso, vamos a ver cómo podemos tomar todos los cambios de estilo
+que vimos —como el control del tipo de fuente, el color de fuente, y la alineación
+del texto— y ponerlos en un archivo aparte. Al hacerlo, podemos usar etiquetas como <div>
+y <span> para darle estilo a nuestras páginas, sin tener que escribir style="color:red" cada vez.
+
+
+Qué es CSS
+CSS (cuyas siglas significan “Cascading Style Sheets” (Hojas de estilo en cascada))
+es un lenguaje que se usa para describir la apariencia y el formato de tu HTML.
+
+Una hoja de estilo es un archivo que describe como debe verse un archivo HTML.
+
+Las hojas de estilo en cascada se llaman así porque pueden usarse unas sobre otras
+para sumar reglas y aplicarlas todas a un mismo documento.
+Por ejemplo, si indicás que todos los párrafos deben tener la fuente de color azul,
+pero señalás que un párrafo específico debe tener fuente de color rojo, ¡CSS lo puede hacer!
+(Hablaremos más sobre el formato en cascada en la sección cuatro).
+
+La unidad de tamaño de fuente font-size em es una medida relativa: un em es igual
+al tamaño de fuente predeterminado en cualquier pantalla que el usuario esté
+usando. Esto los convierte en algo genial para las pantallas de los smartphones,
+ya que no tratan de decirle al smartphone exactamente cuál debe ser el tamaño de
+la fuente: sencillamente le indican, "Mirá: 1em es el tamaño de fuente que usás
+casi siempre, así que 2em es el doble de grande y 0,5em es la mitad de ese tamaño".
+
+Repaso
+¡Buen trabajo! Ya aprendiste un montón. Vamos a hacer una pausa para repasar.
+Vimos:
+• Qué es CSS
+• Por qué separamos forma de función
+• La sintaxis de CSS, incluyendo selectores (múltiples), pares propiedad-valor
+(múltiples) y comentarios
+• Detalles sobre cómo funcionan los colores, los tamaños de las fuentes y
+los tipos de fuentes
